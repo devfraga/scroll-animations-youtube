@@ -1,0 +1,42 @@
+
+body {
+  font-family: sans-serif;
+  color: #121212;
+  background: #fafafa;
+  transition: 0.3s ease-out;
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+  overscroll-behavior: none;
+  margin: 0;
+  padding:0;
+}
+
+
+.main{
+  height: 100vh;
+  background: #121212;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  color: #FFF;
+  font-size: 34px;
+}
+
+.text{
+  color: #FFF;
+}
+
+.area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50vh;
+  margin: 0 44px; 
+}
